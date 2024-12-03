@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "JetBrains Mono", monospace;
   box-sizing: border-box;
 }
 
 body {
-  background: #2F4F4F;
   color: #000;
+  background-image: url(images/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -23,10 +26,11 @@ form {
   max-width: 600px;
   margin: auto;
   height: 80px;
-  background: #778899;
+  background: transparent;
   display: flex;
   align-items: center;
   border-radius: 8px;
+  border: 2px solid #000;
 }
 
 form input {
@@ -43,7 +47,7 @@ form input {
 form button {
   padding: 0 40px;
   height: 100%;
-  background: #D3D3D3;
+  background: transparent;
   color: #000;
   font-size: 18px;
   border: 0;
